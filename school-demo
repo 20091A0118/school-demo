@@ -1,0 +1,7 @@
+echo "# school-demo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/20091A0118/school-demo.git
+git push -u origin main
